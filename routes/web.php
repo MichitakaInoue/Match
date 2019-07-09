@@ -15,3 +15,14 @@ Route::get('/', function () {
     return view('child');
 });
 
+
+//サンプルのルーティング
+Route::get('/sample', function(){
+    return view('layout/sample');
+});
+
+
+//モック　top
+Route::get('/top', function(){
+    return view('top/top');
+});

@@ -1,6 +1,6 @@
 
 {{-- layoutのwelcomeから継承してきたこれをルーティングで表示させてみる --}}
-@extends('sample.welcome')
+@extends('layout.welcome')
 
 @section('title', 'マイページ')
 
